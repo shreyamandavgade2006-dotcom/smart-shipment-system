@@ -1,0 +1,14 @@
+{
+  "name": "smartship",
+  "version": "1.0.0",
+  "description": "Smart Shipment Management System — MERN + Gemini AI",
+  "private": true,
+  "scripts": {
+    "setup": "cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed"
+  }
+}
