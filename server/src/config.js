@@ -5,7 +5,7 @@ export const config = {
   port: process.env.PORT || 5000,
   jwtSecret: process.env.JWT_SECRET || 'smartship-dev-secret-change-me',
   geminiKey: process.env.GEMINI_API_KEY || '',
-  geminiModel: process.env.GEMINI_MODEL || 'gemini-2.5-flash',
+  geminiModel: process.env.GEMINI_MODEL || 'gemini-3.6-flash',
   mongoUri: process.env.MONGODB_URI || '',
   // Carrier integration (real provider webhook; falls back to built-in simulator)
   carrierApiUrl: process.env.CARRIER_API_URL || '',
